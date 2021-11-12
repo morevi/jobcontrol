@@ -24,3 +24,6 @@ Es decir, el empleado solo tendrá que realizar las modificaciones oportunas al 
 - Podría ser de utilidad para la direccion que el programa generase un estadístico de horas totales de varios empleados por proyecto, e incluso calcular el costo total del proyecto
 
 En definitiva, el empleado solo tendra que introducir semanalmente las horas en cada proyecto, y el directivo obtendrá información de utilidad en su trabajo.
+
+## Documentacion
+- [Configuracion del repositorio](docs/entorno.md)
