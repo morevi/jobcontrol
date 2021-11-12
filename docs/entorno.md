@@ -11,5 +11,4 @@ Mediante el uso del comando `git-config` se ha logrado modificar el nombre y el 
 ![git-config](git-config.png)
 
 ## Perfil
-Se ha editado el perfil para que aparezca el nombre, ciudad y la imagen del avatar.
-![perfil.png](perfil.png)
+Se ha editado el [perfil](https://github.com/morevi) para que aparezca el nombre, ciudad y la imagen del avatar.
