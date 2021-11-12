@@ -5,7 +5,7 @@ En la empresa en la que trabajo actualmente, es necesario que cada empleado entr
 - Control de esfuerzos. Semanal. Recoge en un excel cuántas horas ha dedicado a cada uno de los proyectos en los que ha trabajado. Sirve para que los cargos superioes estimen el tiempo por proyecto y puedan ver si han previsto de forma correcta
 - Control horario. Mensual. Como la empresa ofrece horario flexible, los empleados deben declarar el horario que han seguido durante el mes (hora de entradas, salida y descansos).
 
-Ningun empleado los rellena a diario, sino el último día, incluso si se ha repetido el mismo horario durante un tiempo, es necesario modificarlo para anotar que día fué festivo, vacaciones, fechas, etc.
+Incluso si se ha repetido el mismo horario durante un tiempo, es necesario modificarlo para anotar que día fué festivo, vacaciones, fechas, etc.
 
 Es una tarea repetitiva y tediosa que todos los empleados preferirían evitar, o al menos, reducir la atención que requiere.
 
