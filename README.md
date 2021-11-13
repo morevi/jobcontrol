@@ -14,14 +14,15 @@ Automatizar aunque sea un poco el proceso de generar estos documentos e incluir 
 
 ### Control de esfuerzos
 - Aprovechar el uso de horarios "default" que puedan ser repetidos, y modificados en caso de excepción (p.e. "siempre trabajo de 7 a 15, pero este miercoles no trabajaré, así que haré mis horas el sábado"), para reducir el tiempo de edición del documento.
-- Recoger de manera actualizada los días festivos desde la web y aplicarlos sobre los horarios.
+- Recoger de manera actualizada los días festivos desde la web y aplicarlos sobre los horarios. Por tema de planificación, los dias festivos ya están apuntados, juntoa las vacaciones y la previsión de tiempos de cada proyecto. Sin embargo, hay veces que los ayuntamientos deciden moverlos (2022, 2 de enero desplazado al 26 de mayo). Obtener un calendario de dias no laborales actualizado desde la web puede ser de utilidad.
 - Simplificar el proceso de coger vacaciones y de aprovechar el horario flexible y haciendo uso de una "bolsa" de horas
 
 Es decir, el empleado solo tendrá que realizar las modificaciones oportunas al horario generado, y confirmarlo.
 
 ### Control horario
 - Completar el documento solo a partir de las horas en cada proyecto realizadas esa semana
-- Podría ser de utilidad para la direccion que el programa generase un estadístico de horas totales de varios empleados por proyecto, e incluso calcular el costo total del proyecto
+- Podría ser de utilidad para la direccion que el programa generase un estadístico de horas totales de varios empleados por proyecto. Además, añadiendo un coste a la hora (o calculándolo a partir del sueldo de los empleados), calcular el costo total de uno o varios proyectos.
+- El directivo podrá trata de preveer el tiempo que se tendrá que echar en cada proyecto, y al acabar los proyectos obtener la eficiencia del empleado, y decidir en las revisiones de sueldos si merece o no una subida. El empleado podrá dar feedback valorando la planificación, y el directivo sabrá que debe mejorar esas planificaciones.
 
 En definitiva, el empleado solo tendra que introducir semanalmente las horas en cada proyecto, y el directivo obtendrá información de utilidad en su trabajo.
 
