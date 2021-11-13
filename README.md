@@ -10,7 +10,7 @@ Incluso si se ha repetido el mismo horario durante un tiempo, es necesario modif
 Es una tarea repetitiva y tediosa que todos los empleados preferirían evitar, o al menos, reducir la atención que requiere.
 
 ## La idea
-Automatizar aunque sea un poco el proceso de generar estos documentos. He incluir funcionalidad que facilite otras tareas que tambien se realizan en la empresa:
+Automatizar aunque sea un poco el proceso de generar estos documentos e incluir funcionalidad que facilite otras tareas que tambien se realizan en la empresa:
 
 ### Control de esfuerzos
 - Aprovechar el uso de horarios "default" que puedan ser repetidos, y modificados en caso de excepción (p.e. "siempre trabajo de 7 a 15, pero este miercoles no trabajaré, así que haré mis horas el sábado"), para reducir el tiempo de edición del documento.
