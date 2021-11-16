@@ -29,7 +29,10 @@ Servicio web que automatiza controles de los empleados y produce estadísticos �
 ## Milestones
 Cada uno de los checkpoints por los que el desarrollo tendrá que pasar y algunas aclaraciones.
 
-#### [0.1](https://github.com/morevi/jobcontrol/milestone/1)
+#### [M0](https://github.com/morevi/jobcontrol/milestone/4)
+Implementación de esta propia página en issues y milestones.
+
+#### [M1](https://github.com/morevi/jobcontrol/milestone/1)
 > Control horario - Presets, descarga, edición, confirmación y almacenamiento
 
 Manejo básico de los controles de horarios. 
@@ -41,7 +44,7 @@ No se tendrán en cuenta aún la bolsa de horas ni los festivos.
 
 Este hito permite a los empleados empezar a usar el servicio y reducir un poco la interacción con el control horario.
 
-#### [0.2](https://github.com/morevi/jobcontrol/milestone/2)
+#### [M2](https://github.com/morevi/jobcontrol/milestone/2)
 > Control horario - Bolsa de horas, vacaciones y no laborales automáticos.
 
 - Las vacaciones se generan conforme avanza el año. Con un máximo de X días.
@@ -50,7 +53,7 @@ Este hito permite a los empleados empezar a usar el servicio y reducir un poco l
 
 Permite automatizar la toma de vacaciones y de días festivos, además del uso del horario flexible. Se finaliza el desarrollo de la correspondiente al control horario.
 
-#### [0.3](https://github.com/morevi/jobcontrol/milestone/3)
+#### [M3](https://github.com/morevi/jobcontrol/milestone/3)
 > Control proyectos - Almacenamiento de horas, valoración de la planificación y obtención de estadísticas.
 
 - El empleado podrá almacenar las horas en cada proyecto durante esa semana.
