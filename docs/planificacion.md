@@ -29,7 +29,7 @@ Este milestone es interno.
 - HU1
 - HU4
 
-### [M1 Ampliación de funcionalidad](https://github.com/morevi/jobcontrol/milestone/2)
+### [M1 Festivos, bolsa de horas y estadísticas](https://github.com/morevi/jobcontrol/milestone/2)
 Módulo o ampliación de la funcionalidad de la clase _horario_ que logra:
 - los horarios mostrarán los días festivos de manera actualizada y automática.
 - calculo de vacaciones y su aplicación sobre el horario mediante el uso de la _bolsa_
