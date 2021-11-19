@@ -4,63 +4,47 @@
 Servicio web que automatiza controles de los empleados y produce estadísticos útiles a la direccíon.
 
 ## Usuarios
-### Tipos
 - Empleado, son los que resuelven los proyectos. En mi caso serán evaluadores, consultores y programadores.
 - Dirección, se encarga de organizar a los empleados en diferentes proyectos y a planificar proyectos futuros.
 
-### Historias de usuario
-#### Empleado.
-> Edu. 23 años. Programador.
+## Historias de usuario
 
-- Quiere que el programa reduzca la interacción con el horario.
-- Quiere que el programa "genere un horario" y modificarlo en caso de que no esté conforme.
-- No quiere introducir vacaciones, ni días no laborales.
-- Necesita poder validar el horario antes de ser entregado.
-- Quieren indicar cuantas horas han dedicado en cada proyecto.
-
-#### Directivo.
-> Luis. 40 años.
-
-- Quiere saber cuantas horas totales se han realizado en el proyecto X.
-- Quiere conocer cuanto está costando llevar a cabo el proyecto X.
-- Quiere saber cómo de eficientes están siendo sus empleados.
-- Quiere mejorar sus planificaciones, apoyándose en la opinión de sus empleados y en la eficiencia en el proyecto X una vez se ha finalizado.
+- [HU1]() Como empleado, quiero que cada semana el sistema genere mi horario, a partir del horario base introducido anteriormente, y me permita su modificación y confirmación. De forma que pueda reutilizarlo y ahorrar tiempo.
+- [HU2]() Como empleado, quiero que el sistema introduzca los días festivos en el horario sin mi intervención para ahorrar tiempo.
+- [HU3]() Como empleado, quiero conocer cuantas horas de vacaciones, me quedan disponibles y cuantas he útilizado, siendo estas deducidas por el sistema a partir de los horarios introducidos para aprovechar al máximo el horario flexible.
+- [HU4]() Como directivo, quiero poder crear un proyecto, asignando empleados y la planificación, y una vez acabado el proyecto, obtener información y estadísticos, para mejorar futuras planificaciones.
+- [HU5]() Como empleado, necesito declarar semanalmente las horas realizadas en un proyecto, poder visualizar la planificación, y valorar cómo de acertada ha sido, para que el directivo pueda mejorar sus previsiones.
 
 ## Milestones
 Cada uno de los checkpoints por los que el desarrollo tendrá que pasar y algunas aclaraciones.
 
-#### [M0](https://github.com/morevi/jobcontrol/milestone/4)
-Implementación de esta propia página en issues y milestones.
+### [M0 Clases horario y proyecto básicas]()
+Estas clases contienen la información y funcionalidad relativa al manejo básico de los horarios y proyectos. Serán la estructura básica sobre la que podremos empezar el proyecto.
+- Clase _Horario_
+- Clase _Proyecto_
 
-#### [M1](https://github.com/morevi/jobcontrol/milestone/1)
-> Control horario - Presets, descarga, edición, confirmación y almacenamiento
+Este milestone es interno.
 
-Manejo básico de los controles de horarios. 
-- En el servicio se podrán almacenar los presets, tanto el común, como el individual a cada usuario.
-- Se tendrá que poder modificar, de forma completa o parcial, el horario que tiene que entregar.
-- Una vez confirmado/enviados los cambios se procederá al almacenamiento.
+#### HUs
+- HU1
+- HU4
 
-No se tendrán en cuenta aún la bolsa de horas ni los festivos.
+### [M1 Ampliación de funcionalidad]()
+Módulo o ampliación de la funcionalidad de la clase _horario_ que logra:
+- los horarios mostrarán los días festivos de manera actualizada y automática.
+- calculo de vacaciones y su aplicación sobre el horario mediante el uso de la _bolsa_
 
-Este hito permite a los empleados empezar a usar el servicio y reducir un poco la interacción con el control horario.
+Módulo que se apoya en la clase _proyecto_ para generar:
+- calculo de costo del proyecto
+- calculo de la eficiencia de los trabajadores
 
-#### [M2](https://github.com/morevi/jobcontrol/milestone/2)
-> Control horario - Bolsa de horas, vacaciones y no laborales automáticos.
+#### HUs
+- HU2
+- HU3
+- HU5
 
-- Las vacaciones se generan conforme avanza el año. Con un máximo de X días.
-- Los días no laborales se obtendrán desde la web.
-- Se almacenará la bolsa de horas del empleado, donde se incrementará o disminuirá el valor de horas disponibles según el horario entregado por el empleado.
-
-Permite automatizar la toma de vacaciones y de días festivos, además del uso del horario flexible. Se finaliza el desarrollo de la correspondiente al control horario.
-
-#### [M3](https://github.com/morevi/jobcontrol/milestone/3)
-> Control proyectos - Almacenamiento de horas, valoración de la planificación y obtención de estadísticas.
-
-- El empleado podrá almacenar las horas en cada proyecto durante esa semana.
-- El directivo podrá podrá obtener las horas en cada proyecto.
-- El directivo podrá ver el coste actual del proyecto.
-- El directivo podrá almacenar una planificación para un proyecto.
-- El directivo podrá comparar la planificación con las horas realmente trabajadas en el proyecto.
-- El empleado podrá indicar el índice de satisfacción sobre esa planificación.
-
-Este hito permite a los empleados reducir la interacción con el control de proyectos y, al directivo, obtener ciertos estadísticos. Finaliza la parte correspondiente al control de esfuerzos.
+### [M2 API y despliegue]()
+Desarrollo de la API del microservicio, debe poderse realizar el despliegue.
+- creación del servicio web
+- creación de las rutas y e implementacion de la funcionalidad utilizando los módulos y clases anteriores
+- despliege
