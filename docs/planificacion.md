@@ -35,36 +35,35 @@ Servicio web que automatiza controles de los empleados y produce estadísticos �
 Siguiendo una estrategia división vertical del programa final, cada _milestone_ (excepto M0) tratará de añadir funcionalidad, de manera que cada entrega proporcione cierto valor a los usuarios.
 Todas los _milestone_ a partir del M0 deberían de ser tangibles y útiles.
 
-### [M0]() Clases _Horario_ y _Proyecto_
+### [M0]() Clases _Horario_ y _Proyecto_.
 Estructuras de datos sobre la que almacenar los datos relativos a los horarios y a los proyectos.
 - _Horario_. Contiene el horario que un usuario ha seguido durante la semana, así como el seguimiento de sus horas adelantadas atrasadas y vacaciones.
 - _Proyecto_. Contiene las horas realizadas por cada empleado, así como la planificación.
 
 Este _milestone_ es _interno._
 
-### [M1]()
+### [M1]() Servicio básico de horarios.
 Microservicio básico que nos permita subir y entregar horarios, permitiendo saber a los cargos superiores cuanto deben pagar a los empleados.
 
 #### Historias de usuario:
 - HU1
 - HU3 
 
-### [M2]()
+### [M2]() Servicio básico de Proyectos.
 Microservicio básico que permita crear proyectos y su planificación, y anotar horas en cada proyecto.
-
 
 #### Historias de usuario:
 - HU9
 - HU8
 
-### [M3]()
+### [M3]() Información sobre el horario.
 Ampliación de la funcionalidad del microservicio de horarios, que:
 - permita visualizar los días de vacaciones,
 - permita visualizar las horas adelantadas/atrasadas,
 - permita visualizar los días festivos,
 - deje modificar el horario.
 
-Permite a los empleados distribuir de forma efectiva sus vacaciones y aprovechar el horario flexible. Los horarios ahora deberán indicar los días festivos.
+Permite a los empleados distribuir de forma efectiva sus vacaciones y aprovechar el horario flexible. Los horarios generados ahora deberán indicar los días festivos.
 
 #### Historias de usuario:
 - H2
@@ -72,7 +71,7 @@ Permite a los empleados distribuir de forma efectiva sus vacaciones y aprovechar
 - H5
 - H6
 
-### [M4]()
+### [M4]() Estadísticas de los proyectos.
 Ampliación de la funcionalidad del microservicio de proyectos, que incluirá:
 - función para el calculo de coste del proyecto,
 - función para la obtención de la eficiencia de los trabajadores,
