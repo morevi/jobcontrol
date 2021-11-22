@@ -60,6 +60,7 @@ Microservicio básico que nos permita subir y entregar horarios, permitiendo sab
 
 ### [M2](https://github.com/morevi/jobcontrol/milestone/3) Servicio básico de Proyectos.
 Microservicio básico que permita crear proyectos y su planificación, y anotar horas en cada proyecto.
+Los directivos podrán comenzar a repartir los proyectos y los empleados trabajar en ellos.
 
 #### Historias de usuario:
 - HU9
