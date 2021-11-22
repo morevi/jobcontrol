@@ -12,22 +12,22 @@ Servicio web que automatiza controles de los empleados y produce estadísticos �
 - El directivo debe planificar los futuros proyectos a partir de las horas realizadas por los empleados, para mantener la empresa con buen rumbo.
 
 ## Épicas e Historias de usuario
-- E1 Como empleado puedo manejar horarios, para que los cargos superiores sepan cuanto deben pagarme.
+- E1 Como empleado quiero manejar horarios, para que los cargos superiores sepan cuanto deben pagarme.
     - HU1 Como empleado, quiero subir un horario, para poder reutilizarlo semanalmente.
     - HU2 Como empleado, quiero actualizar el horario, para poder mantener el horario preciso.
     - HU3 Como empleado, quiero confirmar un horario, para que los superiores puedan verlo y puedan pagarme.
 
-- E2 Como empleado puedo gestionar mi tiempo libre restante/disponible, para poder distribuirlo a mi gusto.
+- E2 Como empleado quiero gestionar mi tiempo libre restante/disponible, para poder distribuirlo a mi gusto.
     - HU4 Como empleado, quiero visualizar las horas de vacaciones disponibles, para asignarlas a mi gusto.
     - HU5 Como empleado, quiero visualizar cuantas horas llevo atrasadas o adelantadas, para disfrutar el horario flexible.
     - HU6 Como empleado, quiero visualizar los días festivos en el horario, para saber cuando no necesito trabajar.
 
-- E3 Como empleado, puedo asignar horas a cada proyecto, para que el directivo sepa como he distribuido la semana.
-    - HU7 Como empleado, puedo declarar cuantas horas he dedicado esta semana a cada proyecto, para que el directivo comprenda el avance en cada proyecto.
-    - HU8 Como empleado, al acabar el proyecto puedo valorar la planificación asignada, para que el directivo sepa mejorar futuras planificaciones.
+- E3 Como empleado, quiero asignar horas a cada proyecto, para que el directivo sepa como he distribuido la semana.
+    - HU7 Como empleado, quiero declarar cuantas horas he dedicado esta semana a cada proyecto, para que el directivo comprenda el avance en cada proyecto.
+    - HU8 Como empleado, al acabar el proyecto quiero valorar la planificación asignada, para que el directivo sepa mejorar futuras planificaciones.
 
-- E4 Como directivo, puedo gestionar proyectos y planificaciones, para poder mejorar la visión a futuro.
-    - HU9 Como directivo, puedo crear un proyecto, añadiendo una planificación y asignando empleados, para que los empleados puedan empezar a trabajar.
+- E4 Como directivo, quiero gestionar proyectos y planificaciones, para poder mejorar la visión a futuro.
+    - HU9 Como directivo, quiero crear un proyecto, añadiendo una planificación y asignando empleados, para que los empleados puedan empezar a trabajar.
     - HU10 Como directivo, quiero saber cuánto está costando realizar un proyecto, para asignar el presupuesto de forma razonada.
     - HU11 Como directivo, quiero saber cómo de eficiente esta resultando un empleado, para tenerlo en cuenta en la revisión de sueldos.
 
@@ -83,5 +83,3 @@ Permite al directivo obtener información útil para la dirección de la empresa
 - HU8
 - HU10
 - HU11
-
-
