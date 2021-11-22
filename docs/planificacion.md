@@ -33,7 +33,7 @@ Servicio web que automatiza controles de los empleados y produce estadísticos �
 
 ## Roadmap/milestones
 Siguiendo una estrategia división vertical del programa final, cada _milestone_ (excepto M0) tratará de añadir funcionalidad, de manera que cada entrega proporcione cierto valor a los usuarios.
-Todas los _milestone_ a partir del M0 deberían de ser tangibles y útiles desde la perspectiva del usuario. Además trataran de incluir un minimo de funcionalidad que proporcionen un valor completo, y que además tengan sentido que vayan juntas en el mismo _milestone_ (veáse M4, funcionalidad independiente pero ofrecen el mismo valor).
+Todos los _milestone_ a partir del M0 deberían de ser tangibles y útiles desde la perspectiva del usuario. Además trataran de incluir un minimo de funcionalidad que proporcionen un valor completo, y que además tengan sentido que vayan juntas en el mismo _milestone_ (veáse M4, funcionalidad independiente pero ofrecen el mismo valor).
 
 ### [M0]() Clases _Horario_ y _Proyecto_.
 Estructuras de datos sobre la que almacenar los datos relativos a los horarios y a los proyectos.
