@@ -14,7 +14,7 @@ Servicio web que automatiza controles de los empleados y produce estadísticos �
 
 ## [Historias de usuario](https://github.com/morevi/jobcontrol/issues?q=is%3Aopen+is%3Aissue+label%3Auser-stories)
 - HU1 Como empleado, quiero reducir el tiempo en el que realizo la tarea de entregar el _horario_ y las horas en cada proyecto.
-- HU2 Como empleado, quiero recibir una recomendación de empleados cuando cree los proyectos, segun sus habilidades, para mejorar la planificación general de la empresa.
+- HU2 Como directivo, cuando cree un proyecto quiero recibir una recomendación de empleados, según las habilidades necesarias del proyecto y los empleados, para mejorar la planificación general de la empresa.
 
 ## Roadmap/milestones
 Una vez se han generado las `user-stories` a partir de las `épicas`, y dispuestas de forma ordenada y agrupada por el valor que ofrece al usuario, se puede tratar de agrupar estas para formar los _milestones_. Puede ver la disposición de las `user-stories` en el proyecto de github [`story-map`](https://github.com/morevi/jobcontrol/projects/1). Usar esta herramienta permite expandir las `epicas` en HUs de forma más rápida y convertir a _issues_ asociados a _milestones_ de forma rápida.
