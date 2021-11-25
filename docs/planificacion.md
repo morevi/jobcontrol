@@ -8,9 +8,9 @@ Servicio web que automatiza controles de los empleados y produce estadísticos �
 - Dirección, se encarga de organizar a los empleados en diferentes proyectos y a planificar proyectos futuros.
 
 ## User journey
-- El empleado no quiere tener que entregar los documentos, son repetitivos y toman algo de tiempo. Dado que es obligatorio entregar este horario. Podrán entregar al microservicio el horario y las horas de cada proyecto, realizando el mínimo de interacción que posible y reduciendo el tiempo de realización de esta empresa. Queremos hacer la entrega del horario de semanalmente, para poder unirla a la entrega del cargo de ohoras a proyectos.
+- El empleado no quiere tener que entregar los documentos, son repetitivos y toman algo de tiempo. Dado que es obligatorio entregar este horario. Podrán entregar al microservicio el horario y las horas de cada proyecto, realizando el mínimo de interacción que sea posible y reduciendo el tiempo de realización de esta tarea. Queremos hacer la entrega del horario de semanalmente, para poder fusionarla con la entrega del cargo de horas a proyectos.
 
-- Al directivo le gustaría que, al crear los proyectos se le recomendase qué empleados son los más aptos, según las habilidades necesarias para llevarlo a cabo. Así puede asignar a empleados que alcanzan el nivel necesario y reservar a empleados de alto nivel para las tareas más difíciles
+- Al directivo le gustaría que, al crear los proyectos se le recomendase qué empleados son los más aptos, según las habilidades necesarias para llevarlo a cabo. Así puede asignar a empleados que alcanzan el nivel necesario y reservar a empleados de alto nivel para las tareas más difíciles.
 
 ## [Historias de usuario](https://github.com/morevi/jobcontrol/issues?q=is%3Aopen+is%3Aissue+label%3Auser-stories)
 - HU1 Como empleado, quiero reducir el tiempo en el que realizo la tarea de entregar el _horario_ y las horas en cada proyecto.
