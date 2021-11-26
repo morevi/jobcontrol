@@ -32,27 +32,26 @@ Estructuras de datos sobre la que almacenar los datos relativos a los horarios y
 
 Este _milestone_ es _interno._
 
-### [M1](https://github.com/morevi/jobcontrol/milestone/2) Servicio básico de horarios.
-Microservicio básico que nos permita subir y entregar horarios. Reduce el tiempo de entrega de los horarios.
+### [M1](https://github.com/morevi/jobcontrol/milestone/2) Métodos de clases _Horario_ y _Proyecto_.
+Métodos de clase que permitan _set_ y _get_ de datos en las estructuras _Horario_ y _Proyecto_.
+También métodos que permitan extraer datos elaborados:
+- relación Tiempo real/Tiempo planificación,
+- cálculo de horas adelantadas y atrasadas.
 
-### [M2](https://github.com/morevi/jobcontrol/milestone/3) Servicio básico de Proyectos.
-Microservicio básico que permita crear proyectos y su planificación, y anotar horas en cada proyecto.
-Los directivos podrán comenzar a repartir los proyectos y los empleados trabajar en ellos.
+Este _milestone_ es _interno._
 
-### [M3](https://github.com/morevi/jobcontrol/milestone/4) Información sobre el horario.
-Ampliación de la funcionalidad del microservicio de horarios, que:
-- permita visualizar los días de vacaciones,
-- permita visualizar las horas adelantadas/atrasadas,
-- permita visualizar los días festivos,
-- deje modificar el horario.
+### [M3](https://github.com/morevi/jobcontrol/milestone/3) Controladores para las clases _Horario_ y _Proyecto_.
+Clases que se encarguen de manejar la lógica del manejo de peticiones que trabajan sobre _Horarios_ y _Proyectos_.
+Estos controladores deben:
+- Cada método debe válidar las entradas, y
+- debe construir una salida _json_, con la estructura establecida.
 
-Permite a los empleados distribuir de forma efectiva sus vacaciones y aprovechar el horario flexible. Los horarios generados ahora deberán indicar los días festivos.
+Este _milestone_ es _interno._
 
-### [M4](https://github.com/morevi/jobcontrol/milestone/5) Estadísticas de los proyectos.
-Ampliación de la funcionalidad del microservicio de proyectos, que incluirá:
-- función para el calculo de coste del proyecto,
-- función para la obtención de la eficiencia de los trabajadores,
-- valoración del plan de proyecto.
-- obtener recomendacion de empleados basado en las habilidades asignadas al proyecto
+### [M4](https://github.com/morevi/jobcontrol/milestone/3) Microservicio.
+Microservicio que permite la interacción con los horarios y proyectos.
+Debe:
+- incluir los _endpoints_ necesarios para poder realizar las peticiones 
+- ser capaz de ser desplegado en la nube
 
-Permite al directivo obtener información útil para la dirección de la empresa y mejorar las futuras planificaciones de proyectos.
+_Externo_
