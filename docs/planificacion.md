@@ -33,7 +33,7 @@ También métodos que permitan extraer datos elaborados:
 
 Este _milestone_ es _interno._
 
-### [M3](https://github.com/morevi/jobcontrol/milestone/3) Controladores para las clases _Horario_ y _Proyecto_.
+### [M2](https://github.com/morevi/jobcontrol/milestone/3) Controladores para las clases _Horario_ y _Proyecto_.
 Clases que se encarguen de manejar la lógica del manejo de peticiones que trabajan sobre _Horarios_ y _Proyectos_.
 Estos controladores deben:
 - Cada método debe válidar las entradas,
@@ -41,7 +41,7 @@ Estos controladores deben:
 
 Este _milestone_ es _interno._
 
-### [M4](https://github.com/morevi/jobcontrol/milestone/3) Microservicio.
+### [M3](https://github.com/morevi/jobcontrol/milestone/4) Microservicio.
 Microservicio que permite la interacción con los horarios y proyectos.
 Debe:
 - incluir los _endpoints_ necesarios para poder realizar las peticiones 
