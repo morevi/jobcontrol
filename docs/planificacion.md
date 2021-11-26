@@ -17,13 +17,6 @@ Servicio web que automatiza controles de los empleados y produce estadísticos �
 - HU2 Como directivo, cuando cree un proyecto quiero recibir una recomendación de empleados, según las habilidades necesarias del proyecto y los empleados, para mejorar la planificación general de la empresa.
 
 ## Roadmap/milestones
-Una vez se han generado las `user-stories` a partir de las `épicas`, y dispuestas de forma ordenada y agrupada por el valor que ofrece al usuario, se puede tratar de agrupar estas para formar los _milestones_. Puede ver la disposición de las `user-stories` en el proyecto de github [`story-map`](https://github.com/morevi/jobcontrol/projects/1). Usar esta herramienta permite expandir las `epicas` en HUs de forma más rápida y convertir a _issues_ asociados a _milestones_ de forma rápida.
-
-Con el objetivo de que todos los milestones sean MVP con valor, se ha seguido una estrategia división vertical del programa: cada _milestone_ (excepto M0) tratará de añadir funcionalidad, de manera que cada entrega proporcione cierto valor a los usuarios. Es decir, desde M1 se tratará de entregar un fragmento del microservicio total, que en cada iteración aporte mayor valor y funcionalidad.
-
-Todos los _milestone_ a partir del M0 deberían de ser tangibles y útiles desde la perspectiva del usuario. Además trataran de incluir un mínimo de funcionalidad que proporcione un valor completo, (ha de ser utilizable por alguno de los usuarios), y además tengan sentido que vayan juntas en el mismo _milestone_ (veáse M4, funcionalidad independiente pero ofrecen el mismo valor).
-
-Como anotación, señalar que en cada _milestone_ que aparece en este documento, se han indicado unas HUs de forma orientativa: para completar el milestone es probable que esas Hus se hayan marcado como terminadas, o al menos, se hayan realizado tareas relacionadas a esas HUs. En la práctica, solo al M0 se le han asignado HUs ya que es por donde empezaremos a crear tareas y a programar, las HUs se irán asignando y moviendo de _milestone_ conforme avanza el desarrollo.
 
 ### [M0](https://github.com/morevi/jobcontrol/milestone/1) Clases _Horario_ y _Proyecto_.
 Estructuras de datos sobre la que almacenar los datos relativos a los horarios y a los proyectos.
@@ -43,7 +36,7 @@ Este _milestone_ es _interno._
 ### [M3](https://github.com/morevi/jobcontrol/milestone/3) Controladores para las clases _Horario_ y _Proyecto_.
 Clases que se encarguen de manejar la lógica del manejo de peticiones que trabajan sobre _Horarios_ y _Proyectos_.
 Estos controladores deben:
-- Cada método debe válidar las entradas, y
+- Cada método debe válidar las entradas,
 - debe construir una salida _json_, con la estructura establecida.
 
 Este _milestone_ es _interno._
