@@ -41,7 +41,7 @@ Estos controladores deben:
 
 Este _milestone_ es _interno._
 
-### [M3](https://github.com/morevi/jobcontrol/milestone/4) Microservicio.
+### [M3](https://github.com/morevi/jobcontrol/milestone/5) Microservicio.
 Microservicio que permite la interacción con los horarios y proyectos.
 Debe:
 - incluir los _endpoints_ necesarios para poder realizar las peticiones 
