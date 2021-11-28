@@ -28,3 +28,4 @@ En definitiva, el empleado solo tendrá que introducir semanalmente las horas en
 
 ## Documentacion
 - [Configuracion del repositorio](docs/entorno.md)
+- [Planificación del proyecto](docs/planificacion.md)
