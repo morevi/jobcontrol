@@ -1,5 +1,5 @@
 #----------------------------------------------------------------------------
-# Este archivo producto.py contiene la implementaciÃ³n de la clase Producto.
+# Este archivo horario.py contiene la implementaciÃ³n de la clase Horario.
 #----------------------------------------------------------------------------
 # @author: Antonio Caño @eantoniocalo18 
 # @created_date: 29/11/2021

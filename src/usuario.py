@@ -1,5 +1,5 @@
 #----------------------------------------------------------------------------
-# Este archivo cliente.py contiene la implementaciÃ³n de la clase Producto.
+# Este archivo usuario.py contiene la implementaciÃ³n de la clase Usuario.
 #----------------------------------------------------------------------------
 # @author: Antonio Caño @eantoniocalo18 
 # @created_date: 29/11/2021
@@ -8,9 +8,9 @@
 
 
 
-class usuario:
+class Usuario:
     """
-    Clase utilizada para representar un Proyecto.
+    Clase utilizada para representar un Usuario.
     ...
     Atributos
     ----------

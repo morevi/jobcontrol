@@ -8,7 +8,7 @@
 
 
 
-class dia:
+class Dia:
     """
     Clase utilizada para representar un día trabajado
     ...
@@ -17,7 +17,9 @@ class dia:
    
     Publicos
     id: str
-        uuid o id que identifica cada usuario único
+        uuid o id que identifica cada día único
+    usuario_relacionado: str
+        uuid o id que identicada al usuario relacionado con el día trabajado
     fecha : date
         fecha del día trabajado
     hora_inicio : int
@@ -32,9 +34,10 @@ class dia:
             "Método que devolverá las horas trabajadas por el usuario en el día"
 
     """
-    def __init__(self, id, fecha, hora_inicio,hora_fin , horas_descanso):
+    def __init__(self, id,usuario_relacionado, fecha, hora_inicio,hora_fin , horas_descanso):
         self.id = id
         self.fecha = fecha
+	self.usuario_relacionado = usuario_relacionado
         self.hora_inicio = hora_inicio
         self.hora_fin = hora_fin
         self.horas_descanso = horas_descanso

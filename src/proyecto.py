@@ -1,5 +1,5 @@
 #----------------------------------------------------------------------------
-# Este archivo producto.py contiene la implementaciÃ³n de la clase Producto.
+# Este archivo proyecto.py contiene la implementaciÃ³n de la clase Proyecto.
 #----------------------------------------------------------------------------
 # @author: Antonio Caño @eantoniocalo18 
 # @created_date: 29/11/2021
@@ -41,6 +41,6 @@ class Proyecto:
         "Método que devolverá true si el proyecto ha sido terminado"
         pass
     def horas_restantes():
-        "Método que devolverá true si el proyecto ha sido terminado"
+        "Método que devolverá las horas restantes que quedan según la planificación"
         pass
     
