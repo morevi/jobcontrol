@@ -35,9 +35,8 @@ class Usuario:
         confirmar_horario():
             "Método que permitirá confirmar un Horario"
     """
-    def __init__(self, id, email, nombre, apellidos, horarios):
+    def __init__(self, id, nombre, apellidos, horarios):
         self.id = id
-        self.email = email
         self.nombre = nombre
         self.apellidos = apellidos
         self.horarios = horarios

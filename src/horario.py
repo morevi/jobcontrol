@@ -18,7 +18,7 @@ class Horario:
     id: str
         uuid o id que identifica cada horario único
     usuario_relacionado : str
-        uuid o id que identifica el usuario asociado al 
+        uuid o id que identifica el usuario asociado 
     horas_semanales: int
         entero que determinará las horas que tiene que trabajar un usuario en una semana
     dias_trabajados : Dia []
@@ -38,7 +38,7 @@ class Horario:
     """
     def __init__(self, id, usuario_relacionado,horas_semanales, dias_trabajados):
         self.id = id
-        self.nombre = usuario_relacionado
+        self.id_usuario = usuario_relacionado
         self.horas_semanales = horas_semanales
         self.dias_trabajados = dias_trabajados
 
