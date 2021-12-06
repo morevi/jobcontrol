@@ -16,8 +16,6 @@ class Dia:
     ----------
    
     Publicos
-    id: str
-        uuid o id que identifica cada día único
     usuario_relacionado: str
         uuid o id que identicada al usuario relacionado con el día trabajado
     fecha : date
