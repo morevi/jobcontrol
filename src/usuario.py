@@ -18,8 +18,6 @@ class Usuario:
     Publicos
     id: str
         uuid o id que identifica cada usuario único
-    email : str
-        email del usuario
     nombre : str
         nombre del usuario
     apellidos : srt
