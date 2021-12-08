@@ -26,6 +26,16 @@ Es decir, el empleado solo tendrá que realizar las modificaciones oportunas al 
 
 En definitiva, el empleado solo tendrá que introducir semanalmente las horas en cada proyecto, y el directivo obtendrá información de utilidad en su trabajo.
 
+## Uso
+Para ver qué rutinas hemos preparado con el task runner:
+```shell
+poetry run inv --list
+```
+Para comprobar la sintaxis del fichero:
+```shell
+poetry run inv check
+```
+
 ## Documentacion
 - [Configuracion del repositorio](docs/entorno.md)
 - [Planificación del proyecto](docs/planificacion.md)
