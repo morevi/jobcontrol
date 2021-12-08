@@ -1,0 +1,5 @@
+automatizar:
+  fichero: src/horario.py
+  orden: poetry run inv
+  
+
