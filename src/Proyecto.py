@@ -20,10 +20,10 @@ class Proyecto:
         uuid o id que identifica cada Proyecto único
     planificacion : int
         cantidad de horas estimadas para la realización del proyecto
-    usuarios_asignados : Usuario []
-        array con los usuarios que van a realizar el proyecto
+    horarios : Horario []
+        array con los horarios en los que se almacena la información de las horas trabajads por cada usuario
     """
-    def __init__(self, id, planificacion, usuarios_asignados):
+    def __init__(self, id, planificacion, horarios):
         self.id = id
         self.planificacion = planificacion
-        self.usuarios_asignados = usuarios_asignados
+        self.horarios = horarios
