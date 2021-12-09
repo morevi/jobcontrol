@@ -26,14 +26,14 @@ Es decir, el empleado solo tendrá que realizar las modificaciones oportunas al 
 
 En definitiva, el empleado solo tendrá que introducir semanalmente las horas en cada proyecto, y el directivo obtendrá información de utilidad en su trabajo.
 
-## Uso
+## Uso del _task runner_
 Para ver qué rutinas hemos preparado con el _task runner_:
 ```shell
-poetry run inv --list
+inv --list
 ```
 Para comprobar la sintaxis del fichero:
 ```shell
-poetry run inv check
+inv check
 ```
 
 ## Documentación
