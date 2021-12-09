@@ -1,14 +1,3 @@
-
-# Dependency manager
-### Requisitos
-- fácil de usar
-- cuánto más se automatice, mejor
-- frecuente actividad de mantenimiento del proyecto
-
-### Comparación
-Se ha comparado: poetry y pip.
-Tanto pip como poetry, son sencillos de usar, y sus repositorios pueden considerarse muy activos, pero he elegido poetry, ya que es capaz de realizar tareas de construcción y publicación de paquetes de python.
-
 # Task runner
 ### Requisitos
 - fácil de usar
