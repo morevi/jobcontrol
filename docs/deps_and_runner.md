@@ -1,7 +1,7 @@
 
 # Dependency manager
 ### Requisitos
-- facil de usar
+- fácil de usar
 - cuánto más se automatice, mejor
 - frecuente actividad de mantenimiento del proyecto
 
@@ -11,7 +11,7 @@ Tanto pip como poetry, son sencillos de usar, y sus repositorios pueden consider
 
 # Task runner
 ### Requisitos
-- facil de usar
+- fácil de usar
 - sintaxis sencilla
 - frecuente actividad de mantenimiento del proyecto
 - pocas dependencias
@@ -21,7 +21,7 @@ Se han comparado: poethepoet, invoke, taskipy, doit, make.
 
 Primero se descartó make, este añade dependencias externas a python, cosa que puede ser evitada haciendo uso de un paquete de python que se encargue de hacer de task runner.
 
-Los demás quedan divididos en 2 grupos: configuración en python y configuracion en TOML.
+Los demás quedan divididos en 2 grupos: configuración en python o en TOML.
 
 Taskipy y poethepoet ambos son muy similares en sintaxis y en funcionalidad, con su configuración dentro del pyproject.toml, evitando añadir otro fichero al proyecto. Ambos son proyectos con similar actividad en el repositorio.
 
