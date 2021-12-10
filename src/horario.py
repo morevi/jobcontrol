@@ -15,8 +15,8 @@ class Horario:
     ----------
    
     Publicos
-    id: str
-        uuid o id que identifica cada horario único
+    fecha_inicio: Date
+        fecha en la que comienza el horario
     usuario_relacionado : str
         uuid o id que identifica el usuario asociado al
     horas_trabajadas : int
@@ -29,8 +29,8 @@ class Horario:
 	to_CSV(): 
 	    "Método que permitirá exportar a formato CSV los datos referentes a un horario" 
  """
-    def __init__(self, id, usuario_relacionado, horas_trabajadas):
-        self.id = id
+    def __init__(self, fecha_inicio, usuario_relacionado, horas_trabajadas):
+        self.fecha_inicio = fecha_inicio
         self.nombre = usuario_relacionado
 	self.horas_trabajadas = horas_trabajadas
 
