@@ -1,21 +1,40 @@
 # Task runner
 ### Requisitos
-- fácil de usar
-- sintaxis sencilla
-- frecuente actividad de mantenimiento del proyecto
-- pocas dependencias
+- que permita establecer rutinas ejecutables desde una misma instrucción,
+- frecuente actividad de mantenimiento del proyecto, sobre todo el tiempo de respuesta desde la creación de un issue y el tiempo entre commits.
+- pocas dependencias,
+- específico al lenguaje de programación usado,
+- configuración en un fichero aparte, para favorecer la modularidad.
 
-### Comparación
-Se han comparado: poethepoet, invoke, taskipy, doit, make.
+### Encontrado
+Buscando por _python task runner_ y _python task manager_ en google, se han encontrado las siguientes alternativas: poethepoet, invoke, taskipy, doit, make. Todos los encontrados cumplen el primer requisito.
 
-Primero se descartó make, este añade dependencias externas a python, cosa que puede ser evitada haciendo uso de un paquete de python que se encargue de hacer de task runner.
+### Make
+- Aunque tiene ya 45 años, su último commit fue este pasado Noviembre. Recibe issues constantemente que no parecen recibir respuesta. ✗
+- Incluye varias dependencias externas a python. ✗
+- Creado para C/C++, pero útil en cualquier ámbito. ✗
+- Configuración en un Makefile. ✓
 
-Los demás quedan divididos en 2 grupos: configuración en python o en TOML.
+### Poethepoet
+- Es un proyecto reciente con pocos commits, los issues que recibe parecen ser respondidos rápidamente. ✓
+- Incluye algunas dependencias. ✗ 
+- Específico de python. ✓
+- Configuración en el propio pyproject.toml. ✗
 
-Taskipy y poethepoet ambos son muy similares en sintaxis y en funcionalidad, con su configuración dentro del pyproject.toml, evitando añadir otro fichero al proyecto. Ambos son proyectos con similar actividad en el repositorio.
+### Taskipy
+Curiosamente similar a poethepoet
 
-Doit se descarta, ya que en comparación a invoke, su configuración es bastante más compleja.
+### Doit
+- Parece tener un tiempo de respuesta de pocos días, lo cual es bueno. ✓
+- Incluye algunas dependencias. ✗
+- Específico de python. ✓
+- Configuración en un fichero aparte. ✓
 
-Invoke, por otro lado, es sencillo de configurar. Valoro positivamente que se añada un nuevo fichero tasks.py al root del proyecto, ya que favorece la separación, por un lado dependencias y por otro las automatizaciones del proyecto. Además, invoke es bastante popular en comparación a los anteriores (obviando make), lo que hará mucho más sencillo obtener soporte en caso de tener problemas con la herramienta. 
+### Invoke
+- Parece tardar algo más de una semana en responder a los issues. (Medio punto) 
+- No incluye más dependencia que sí mismo. ✓
+- Específico de python. ✓
+- Configuración en un fichero aparte, tasks.py. ✓
 
-Por ello se ha escogido Invoke como nuestro task runner.
+## Decisión
+Invoke recibe una puntuación de 3.5/4 con respecto a los criterios que hemos descrito anteriormente.
