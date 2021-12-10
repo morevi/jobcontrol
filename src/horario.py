@@ -19,26 +19,23 @@ class Horario:
         uuid o id que identifica cada horario único
     usuario_relacionado : str
         uuid o id que identifica el usuario asociado al
-    horas_semanales: int
-        entero que determinará las horas que tiene que trabajar un usuario en una semana
     horas_trabajadas : int
 	entero que lleva la sumatoria de las horas que ha ido trabajando un usuario
 
     Métodos
     -------
-        horas_restantes():
-            "Método que devolverá la diferencia entre horas_semanales y horas_trabajadas
+        get_horas_trabajadas():
+            " Método que devolverá las horas_trabajadas por el usuario"
 	to_CSV(): 
 	    "Método que permitirá exportar a formato CSV los datos referentes a un horario" 
  """
-    def __init__(self, id, usuario_relacionado,horas_semanales, horas_trabajadas):
+    def __init__(self, id, usuario_relacionado, horas_trabajadas):
         self.id = id
         self.nombre = usuario_relacionado
- 	self.horas_semanales = horas_semanales
 	self.horas_trabajadas = horas_trabajadas
 
-    def horas_restantes():
-	" Método que devolverá la diferencia entre horas_semanales y horas_trabajadas"
+    def get_horas_trabajadas():
+	" Método que devolverá las horas_trabajadas por el usuario"
 	pass
 
     def to_CSV():
