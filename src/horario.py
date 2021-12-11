@@ -32,12 +32,12 @@ class Horario:
     def __init__(self, fecha_inicio, usuario_relacionado, horas_trabajadas):
         self.fecha_inicio = fecha_inicio
         self.nombre = usuario_relacionado
-	self.horas_trabajadas = horas_trabajadas
+        self.horas_trabajadas = horas_trabajadas
 
     def get_horas_trabajadas():
-	" Método que devolverá las horas_trabajadas por el usuario"
-	pass
+        " Método que devolverá las horas_trabajadas por el usuario"
+        pass
 
     def to_CSV():
         " Método que devolverá las horas trabajadas por el usuario en este horario"
-	pass
+        pass
