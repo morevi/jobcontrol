@@ -26,6 +26,19 @@ Es decir, el empleado solo tendrá que realizar las modificaciones oportunas al 
 
 En definitiva, el empleado solo tendrá que introducir semanalmente las horas en cada proyecto, y el directivo obtendrá información de utilidad en su trabajo.
 
-## Documentacion
-- [Configuracion del repositorio](docs/entorno.md)
+## Uso del _task runner_
+Tendrás que instalar Invoke con el gestor de dependencias que uses, se recomienda usar Poetry, ya que hace uso de pyproject.toml donde se define Invoke como dependencia del entorno de desarrollo. 
+
+Para ver qué rutinas hemos preparado con el _task runner_:
+```shell
+inv --list
+```
+Para comprobar la sintaxis del fichero:
+```shell
+inv check
+```
+
+## Documentación
+- [Configuración del repositorio](docs/entorno.md)
 - [Planificación del proyecto](docs/planificacion.md)
+- [Gestor de dependencias y tareas](docs/deps_and_runner.md)
