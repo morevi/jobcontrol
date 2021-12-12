@@ -3,5 +3,3 @@ entidad: src/Horario.py
 automatizar:
   fichero: tasks.py
   orden: inv
-  
-
