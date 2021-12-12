@@ -36,8 +36,6 @@ class Horario:
 
     def get_horas_trabajadas():
         " Método que devolverá las horas_trabajadas por el usuario"
-        pass
 
     def to_CSV():
         " Método que devolverá las horas trabajadas por el usuario en este horario"
-        pass
