@@ -38,6 +38,11 @@ Para comprobar la sintaxis del fichero:
 inv check
 ```
 
+Para ejecutar los tests:
+```shell
+inv test
+```
+
 ## Documentación
 - [Configuración del repositorio](docs/entorno.md)
 - [Planificación del proyecto](docs/planificacion.md)
