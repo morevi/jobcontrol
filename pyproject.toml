@@ -17,7 +17,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.ward]
-path = ["unit_test"]
+path = ["unit_tests", "tests"]
 capture-output = false
 order = "standard"
 test-output-style = "test-per-line"
