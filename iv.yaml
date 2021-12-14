@@ -3,3 +3,4 @@ entidad: src/Horario.py
 automatizar:
   fichero: tasks.py
   orden: inv
+test: tests/test_usuario.py
