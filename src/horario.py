@@ -1,5 +1,4 @@
 '''Horario.py'''
-from typing import Dict, List, Tuple
 from datetime import time, date, timedelta
 
 class Horario:
@@ -24,7 +23,7 @@ class Horario:
         else:
             self.dias = nuevo
 
-    def to_CSV() -> str:
+    def to_CSV(self) -> str:
         '''Export this timetable on a human readable format'''
 
     @staticmethod
