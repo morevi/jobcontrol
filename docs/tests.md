@@ -70,3 +70,20 @@ Trata de ser tanto un framework como una librería de aserciones. Y fuerza a las
 
 ## Decisión
 Una vez analizados se ha optado por Assertpy
+
+
+# FIRST
+### Fast
+Los test se ejecutarán rápidamente con `inv test`.
+
+### Isolated
+Cada test utiliza el input generado de los fixtures, y no existen factores que exteriores que alteren el resultado de un test dado. 
+
+### Repeatable
+Cada test utiliza su propia información generada (fixtures) en cada ejecución. Nada cambia entre ejecuciones.
+
+### Self-validating
+Los tests obtienen el resultado y es mostrado por el marco. NO es necesario visualizar manualmente ningún resultado o fichero para comprobar si pasan o no.
+
+### Thorough
+Se intenta cubrir todas las posibilidades.
