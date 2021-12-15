@@ -6,6 +6,7 @@ from datetime import time, date
 
 @fixture
 def good_horario():
+    '''This Horario is correct'''
     day = date(2021, 12, 13)
     tabla = {
         'L': [(time(9, 0), 8)],
@@ -22,6 +23,7 @@ def good_horario():
 
 @fixture
 def bad_horario():
+    '''This Horario is not correct'''
     day = date(2021, 12, 14)
     tabla = {
         'L': [(time(9, 0), 25)],
@@ -46,20 +48,24 @@ def empty():
 
 @test('Horario is initialized')
 def _(horario=good_horario()):
+    '''Test if a correctly initialized Horario is a correct object'''
     assert_that(horario).is_not_none()
     assert_that(horario.fecha_inicio).is_not_none()
     assert_that(horario.dias).is_not_none()
 
 @test('Validate Horario')
 def _(horario=bad_horario()):
+    '''Test if a badly initialized horario raises an Exception'''
     assert_that(horario).is_none()
 
 @test('Count hours')
 def _(horario=good_horario()):
+    '''Test get_horas_trabajadas'''
     assert_that(Horario.get_horas_trabajadas(horario.dias)).is_equal_to(40)
 
 @test('Add days')
 def _(horario=empty()):
+    '''Test adding a day to an horario'''
     days = { 'M': [(time(9), 8)] }
     horario.add_days(days)
 
