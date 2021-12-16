@@ -1,9 +1,8 @@
-name: build-publish
-
 on:
   push:
     branches:
       - main
+      - objetivo-5
     paths:
       # only if these files had changes
       - Dockerfile
