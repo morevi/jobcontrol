@@ -9,7 +9,18 @@ python = "^3.9"
 
 [tool.poetry.dev-dependencies]
 invoke = "^1.6.0"
+ward = "^0.65.0-beta.0"
+assertpy = "^1.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ward]
+path = ["tests"]
+capture-output = false
+order = "standard"
+test-output-style = "test-per-line"
+fail-limit = 10
+progress-style = ["bar"]
+show-diff-symbols = true
