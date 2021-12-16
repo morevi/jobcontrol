@@ -5,16 +5,15 @@ from src.usuario import Usuario
 from src.horario import Horario
 from datetime import time, date
 
+LUNESAVIERNES = ['L', 'M', 'X', 'J', 'V']
+NUEVEACINCO = (time(9, 0), 8)
+
 @fixture
 def first():
     day = date(2021, 12, 13)
-    tabla = {
-        'L': [(time(9, 0), 8)],
-        'M': [(time(9, 0), 8)],
-        'X': [(time(9, 0), 8)],
-        'J': [(time(9, 0), 8)],
-        'V': [(time(9, 0), 8)]
-    }
+    tabla = {}
+    for d in LUNESAVIERNES:
+        tabla[d] = [NUEVEACINCO]
     
     try:
         return Horario(day, tabla)
@@ -23,13 +22,9 @@ def first():
 
 def second():
     day = date(2021, 12, 27)
-    tabla = {
-        'L': [(time(9, 0), 8)],
-        'M': [(time(9, 0), 8)],
-        'X': [(time(9, 0), 8)],
-        'J': [(time(9, 0), 8)],
-        'V': [(time(9, 0), 8)],
-    }
+    tabla = {}
+    for d in LUNESAVIERNES:
+        tabla[d] = [NUEVEACINCO]
     
     try:
         return Horario(day, tabla)
