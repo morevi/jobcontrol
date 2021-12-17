@@ -2,14 +2,11 @@ name: "DockerHub"
 
 on:
   push:
-    branches:
-      - main
-      - objetivo-5
     paths:
       # only if these files had changes
       - Dockerfile
       - pyproject.toml
-      - .github/workflows/dockerhub.yml
+      - poetry.lock
 
 jobs:
   buildnpush:
