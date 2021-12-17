@@ -1,4 +1,4 @@
-FROM python:3.10-slim-bullseye
+FROM python:3.8-slim
 LABEL version="0.6.0" maintainer="morevi" repo="jobcontrol"
 
 WORKDIR /app/test

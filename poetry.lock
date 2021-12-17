@@ -190,8 +190,8 @@ tomli = ">=1.0.0,<2.0.0"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9"
-content-hash = "b4b51a75328b4ec086d0973eeb37abb54f86c81a05187322839957770d7f3ed7"
+python-versions = "^3.8"
+content-hash = "54886c025973137ce61319f226a5b130f4d524c545f86fa34da0aa9f29df61c6"
 
 [metadata.files]
 assertpy = [
