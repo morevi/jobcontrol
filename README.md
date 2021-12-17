@@ -48,3 +48,4 @@ inv test
 - [Planificación del proyecto](docs/planificacion.md)
 - [Gestor de dependencias y tareas](docs/deps_and_runner.md)
 - [Framework de tests y librería de aserciones](docs/tests.md)
+- [Imagen base](docs/docker.md)
