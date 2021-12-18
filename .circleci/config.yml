@@ -1,0 +1,28 @@
+version: 2.1
+
+jobs:
+  tests:
+    parameters:
+      tag:
+        type: string  
+
+    docker:
+      - image: circleci/python:<< parameters.tag >>
+
+    steps:
+      - checkout
+      - run:
+          name: Install
+          command: pip3 install poetry && poetry install
+            
+      - run:
+          name: Run
+          command: poetry run invoke test
+
+workflows:
+  run-test-matrix: 
+    jobs:
+      - tests:
+          matrix:
+            parameters: 
+              tag: ["3.9", "3.10"]
