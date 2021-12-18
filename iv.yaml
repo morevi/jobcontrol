@@ -4,3 +4,4 @@ automatizar:
   fichero: tasks.py
   orden: inv
 test: tests/test_usuario.py
+CI: .circleci/config.yml
