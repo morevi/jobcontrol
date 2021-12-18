@@ -1,21 +1,28 @@
 version: 2.1
 
-orbs:
-  python: circleci/python@1.2
-
 jobs:
-  test:
+  tests:
+    parameters:
+      tag:
+        type: string  
+
     docker:
-      - image: morevi/jobcontrol
- 
+      - image: circleci/python:<< parameters.tag >>
+
     steps:
       - checkout
       - run:
-          name: Run tests
-          command: docker run -t -v `pwd`:/app/test morevi/jobcontrol
+          name: Install
+          command: pip3 install poetry && poetry install
+            
+      - run:
+          name: Run
+          command: poetry run invoke test
 
 workflows:
-  sample: # This is the name of the workflow, feel free to change it to better match your workflow.
-    # Inside the workflow, you define the jobs you want to run.
+  run-test-matrix: 
     jobs:
-      - test
+      - tests:
+          matrix:
+            parameters: 
+              tag: ["3.9", "3.10"]
