@@ -20,3 +20,11 @@ Hacer uso de una matriz de versiones en la configuración de un servicio de CI n
 El tier gratuito de TravisCI, ofrece un número de créditos no recargables, lo que es un factor muy limitante a largo plazo. Github Actions y CircleCI ambos ofrecen planes gratuitos basados en un número de minutos mensuales, lo que nos podría permitir organizar nuestras ejecuciones para aprovechar los minutos sin quedarnos colgados en ningún momento. 
 
 Sobre ambos (Actions y CircleCI) podremos lanzar nuestra imagen para ejecutar los tests, pero como CircleCI ofrece más minutos, será este servicio el que utilicemos para probar sobre las diferentes versiones del lenguaje, y Actions para ejecutar el test con docker.
+
+# Versiones de python a probar
+
+Nuestra aplicación, se basa en python3.8, la última versión fuera de "bugfixes" ([info](https://devguide.python.org/#status-of-python-branches)). es decir cada actualización que recibe se tratará de "security updates", lo que hace que la consideremos más estable que las siguientes versiones.
+
+A partir de la 3.8, tendremos que probar además las futuras versiones, 3.9 y 3.10, para poder predecir cambios importantes que requieran intervención de los desarrolladores. Es vital mantenerse actualizado y estar al día con las "security updates".
+
+Otra razón para enfocarnos en versiones futuras es que las versiones pasadas quedan pronto obsoletas (p.e. python 3.6 no recibirá más actualizaciones a partir del 23 de Diciembre, [info](https://endoflife.date/python)), según el modelo de desarrollo de python (una nueva versión recibe mantenimiento durante 5 años). Esto hace que sea importante ir actualizando nuestra aplicación, pero con cierto cuidado, dejando primero que actualicen primero los proyectos de nuestras dependencias. Probar nuevas versiones permite asegurar que pasen los test a futuro.
